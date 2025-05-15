@@ -59,11 +59,11 @@ export default function Dashboard() {
 
   return (
     <>
-      <main className="relative w-full flex flex-col items-center justify-center gap-8  p-[6rem]">
+      <main className="relative w-full flex flex-col items-center justify-center gap-8 p-0 md:p-[3rem] lg:p-[6rem]">
       <div className="absolute right-0 top-0">  <SidebarTrigger /></div>
       <div className="absolute left-0 top-0">  <Settings /></div>
 
-        <div className="flex gap-2 mb-2">
+        <div className="flex gap-2 mb-2 mt-[2rem]">
           <Button 
             variant={displayType === "paragraph" ? "default" : "outline"}
             size="default"
